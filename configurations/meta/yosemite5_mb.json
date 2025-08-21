@@ -87,11 +87,11 @@
                 },
                 {
                     "Direction": "greater than",
-                    "Hysteresis": 0.068,
+                    "Hysteresis": 0.0693,
                     "Label": "in1",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 3.4
+                    "Value": 3.465
                 },
                 {
                     "Direction": "less than",
@@ -196,6 +196,7 @@
             "in1_Name": "MB_ADC_P3V3_STBY_VOLT_V",
             "in1_Scale": 500,
             "in2_Name": "MB_ADC_PVDD18_S5_VOLT_V",
+            "in2_Scale": 833.333333333,
             "in3_Name": "MB_ADC_P1V8_STBY_VOLT_V",
             "in4_Name": "MB_ADC_PVDD33_S5_VOLT_V",
             "in4_Scale": 500,
@@ -224,6 +225,22 @@
             "Thresholds": [
                 {
                     "Direction": "less than",
+                    "Hysteresis": 0.0229,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 1.145
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.028,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 1.4
+                },
+                {
+                    "Direction": "less than",
                     "Hysteresis": 0.216,
                     "Label": "in1",
                     "Name": "lower critical",
@@ -237,6 +254,22 @@
                     "Name": "upper critical",
                     "Severity": 1,
                     "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 2.016,
+                    "Label": "power1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 100.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 2.464,
+                    "Label": "power1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 123.2
                 }
             ],
             "Type": "INA230",
@@ -256,6 +289,22 @@
             "Thresholds": [
                 {
                     "Direction": "less than",
+                    "Hysteresis": 0.0229,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 1.145
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.028,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 1.4
+                },
+                {
+                    "Direction": "less than",
                     "Hysteresis": 0.216,
                     "Label": "in1",
                     "Name": "lower critical",
@@ -269,6 +318,22 @@
                     "Name": "upper critical",
                     "Severity": 1,
                     "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 2.016,
+                    "Label": "power1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 100.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 2.464,
+                    "Label": "power1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 123.2
                 }
             ],
             "Type": "INA230",
@@ -288,6 +353,22 @@
             "Thresholds": [
                 {
                     "Direction": "less than",
+                    "Hysteresis": 0.0365,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 1.827
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.0458,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 2.29
+                },
+                {
+                    "Direction": "less than",
                     "Hysteresis": 0.216,
                     "Label": "in1",
                     "Name": "lower critical",
@@ -301,6 +382,22 @@
                     "Name": "upper critical",
                     "Severity": 1,
                     "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.45,
+                    "Label": "power1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 22.5
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.55,
+                    "Label": "power1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 27.5
                 }
             ],
             "Type": "INA230",
@@ -320,6 +417,22 @@
             "Thresholds": [
                 {
                     "Direction": "less than",
+                    "Hysteresis": 0.0365,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 1.827
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.0458,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 2.29
+                },
+                {
+                    "Direction": "less than",
                     "Hysteresis": 0.216,
                     "Label": "in1",
                     "Name": "lower critical",
@@ -333,6 +446,22 @@
                     "Name": "upper critical",
                     "Severity": 1,
                     "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.45,
+                    "Label": "power1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 22.5
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.55,
+                    "Label": "power1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 27.5
                 }
             ],
             "Type": "INA230",
@@ -444,6 +573,40 @@
                 "curr1"
             ],
             "Name": "MB_ADC_P12V_FAN0",
+            "Thresholds": [
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.216,
+                    "Label": "in1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 10.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.264,
+                    "Label": "in1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.1512,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 7.56
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.1945,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 9.724
+                }
+            ],
             "Type": "INA230",
             "curr1_Name": "MB_ADC_P12V_FAN0_CURR_A",
             "in1_Name": "MB_ADC_P12V_FAN0_VOLT_V"
@@ -456,6 +619,40 @@
                 "curr1"
             ],
             "Name": "MB_ADC_P12V_FAN1",
+            "Thresholds": [
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.216,
+                    "Label": "in1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 10.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.264,
+                    "Label": "in1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.1512,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 7.56
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.1945,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 9.724
+                }
+            ],
             "Type": "INA230",
             "curr1_Name": "MB_ADC_P12V_FAN1_CURR_A",
             "in1_Name": "MB_ADC_P12V_FAN1_VOLT_V"
@@ -468,6 +665,40 @@
                 "curr1"
             ],
             "Name": "MB_ADC_P12V_FAN2",
+            "Thresholds": [
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.216,
+                    "Label": "in1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 10.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.264,
+                    "Label": "in1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.1512,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 7.56
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.1945,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 9.724
+                }
+            ],
             "Type": "INA230",
             "curr1_Name": "MB_ADC_P12V_FAN2_CURR_A",
             "in1_Name": "MB_ADC_P12V_FAN2_VOLT_V"
@@ -480,6 +711,40 @@
                 "curr1"
             ],
             "Name": "MB_ADC_P12V_FAN3",
+            "Thresholds": [
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.216,
+                    "Label": "in1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 10.8
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.264,
+                    "Label": "in1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 13.2
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.1512,
+                    "Label": "curr1",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 7.56
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.1945,
+                    "Label": "curr1",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 9.724
+                }
+            ],
             "Type": "INA230",
             "curr1_Name": "MB_ADC_P12V_FAN3_CURR_A",
             "in1_Name": "MB_ADC_P12V_FAN3_VOLT_V"
@@ -721,6 +986,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp1",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp1",
                     "Name": "upper critical",
@@ -737,6 +1010,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp2",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp2",
                     "Name": "upper critical",
@@ -753,6 +1034,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp3",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp3",
                     "Name": "upper critical",
@@ -769,6 +1058,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp4",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp4",
                     "Name": "upper critical",
@@ -785,6 +1082,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp5",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp5",
                     "Name": "upper critical",
@@ -801,6 +1106,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp6",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp6",
                     "Name": "upper critical",
@@ -817,6 +1130,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp7",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp7",
                     "Name": "upper critical",
@@ -833,6 +1154,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp8",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp8",
                     "Name": "upper critical",
@@ -849,6 +1178,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp9",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp9",
                     "Name": "upper critical",
@@ -865,6 +1202,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp10",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp10",
                     "Name": "upper critical",
@@ -881,6 +1226,14 @@
                 },
                 {
                     "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp11",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
+                },
+                {
+                    "Direction": "greater than",
                     "Hysteresis": 1.7,
                     "Label": "temp11",
                     "Name": "upper critical",
@@ -894,6 +1247,14 @@
                     "Name": "lower critical",
                     "Severity": 1,
                     "Value": 5.0
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Label": "temp12",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 80.0
                 },
                 {
                     "Direction": "greater than",
