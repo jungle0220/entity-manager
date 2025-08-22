@@ -4,12 +4,11 @@
             "Address": "0x1e",
             "Bus": 34,
             "Labels": [
-                "in3",
                 "in4",
                 "in5",
                 "in6"
             ],
-            "Name": "CXL_ADC0",
+            "Name": "CXL_ADC0_STBY",
             "Thresholds": [
                 {
                     "Direction": "less than",
@@ -49,7 +48,7 @@
                     "Label": "in5",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 3.14
+                    "Value": 3.135
                 },
                 {
                     "Direction": "greater than",
@@ -77,10 +76,38 @@
                 }
             ],
             "Type": "ADC128D818",
-            "in3_Name": "CXL_ADC_P1V8_VDD_IO_VOLT_V",
             "in4_Name": "CXL_ADC_P1V8_STBY_VOLT_V",
             "in5_Name": "CXL_ADC_P3V3_STBY_VOLT_V",
             "in6_Name": "CXL_ADC_P5V_STBY_VOLT_V"
+        },
+        {
+            "Address": "0x1e",
+            "Bus": 34,
+            "Labels": [
+                "in3"
+            ],
+            "Name": "CXL_ADC0",
+            "PowerState": "On",
+            "Thresholds": [
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.0342,
+                    "Label": "in3",
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 1.71
+                },
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 0.0378,
+                    "Label": "in3",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 1.89
+                }
+            ],
+            "Type": "ADC128D818",
+            "in3_Name": "CXL_ADC_P1V8_VDD_IO_VOLT_V"
         },
         {
             "Address": "0x1f",
@@ -93,6 +120,7 @@
                 "in7"
             ],
             "Name": "CXL_ADC1",
+            "PowerState": "On",
             "Thresholds": [
                 {
                     "Direction": "less than",
@@ -132,7 +160,7 @@
                     "Label": "in5",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 2.38
+                    "Value": 2.375
                 },
                 {
                     "Direction": "greater than",
@@ -148,7 +176,7 @@
                     "Label": "in6",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 2.38
+                    "Value": 2.375
                 },
                 {
                     "Direction": "greater than",
@@ -164,7 +192,7 @@
                     "Label": "in7",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 1.17
+                    "Value": 1.167
                 },
                 {
                     "Direction": "greater than",
@@ -278,7 +306,7 @@
             "Address": "0x4c",
             "Bus": 34,
             "Name": "CXL_EXT_CHIP_TEMP_C",
-            "Name1": "CXL_EXT1_CHIP_TEMP_C",
+            "PowerState": "On",
             "Thresholds": [
                 {
                     "Direction": "less than",
