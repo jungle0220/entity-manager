@@ -204,11 +204,11 @@
                 }
             ],
             "Type": "ADC128D818",
-            "in3_Name": "CSL_ADC_P0V6_VTT_CH13_VOLT_V",
-            "in4_Name": "CSL_ADC_P0V6_VTT_CH02_VOLT_V",
-            "in5_Name": "CSL_ADC_P2V5_VPP_CH13_VOLT_V",
-            "in6_Name": "CSL_ADC_P2V5_VPP_CH02_VOLT_V",
-            "in7_Name": "CSL_ADC_P1V2_VDD_HA"
+            "in3_Name": "CXL_ADC_P0V6_VTT_CH13_VOLT_V",
+            "in4_Name": "CXL_ADC_P0V6_VTT_CH02_VOLT_V",
+            "in5_Name": "CXL_ADC_P2V5_VPP_CH13_VOLT_V",
+            "in6_Name": "CXL_ADC_P2V5_VPP_CH02_VOLT_V",
+            "in7_Name": "CXL_ADC_P1V2_VDD_HA"
         },
         {
             "Address": "0x4d",
