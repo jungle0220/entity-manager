@@ -7,7 +7,7 @@
             "Type": "EEPROM"
         },
         {
-            "Address": "0x46",
+            "Address": "0x47",
             "Bus": 8,
             "Labels": [
                 "vin",
