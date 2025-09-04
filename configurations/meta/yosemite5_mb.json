@@ -870,7 +870,7 @@
                 "temp12"
             ],
             "Name": "SBRMI",
-            "PowerState": "On",
+            "PowerState": "BiosPost",
             "Thresholds": [
                 {
                     "Direction": "greater than",
@@ -1432,7 +1432,7 @@
             "Address": "0x4c",
             "Bus": 3,
             "Name": "MB_CPU_TEMP_C",
-            "PowerState": "On",
+            "PowerState": "BiosPost",
             "Thresholds": [
                 {
                     "Direction": "less than",
