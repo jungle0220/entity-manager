@@ -69,7 +69,7 @@
                     "Label": "in3",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "greater than",
@@ -77,7 +77,7 @@
                     "Label": "in3",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 },
                 {
                     "Direction": "less than",
@@ -85,7 +85,7 @@
                     "Label": "in4",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "greater than",
@@ -93,7 +93,7 @@
                     "Label": "in4",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 },
                 {
                     "Direction": "less than",
@@ -117,7 +117,7 @@
                     "Label": "in6",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "greater than",
@@ -125,7 +125,7 @@
                     "Label": "in6",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 },
                 {
                     "Direction": "less than",
@@ -133,7 +133,7 @@
                     "Label": "in7",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "greater than",
@@ -141,18 +141,18 @@
                     "Label": "in7",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 }
             ],
             "Type": "ADS7830",
-            "in0_Name": "E1S_EB_P12V_STBY_VOLT_V",
-            "in1_Name": "E1S_EB_P3V3_AUX_VOLT_V",
-            "in2_Name": "E1S_EB_P3V3_E1S_0_VOLT_V",
-            "in3_Name": "E1S_EB_P12V_E1S_0_VOLT_V",
-            "in4_Name": "E1S_EB_P12V_E1S_0_R_VOLT_V",
-            "in5_Name": "E1S_EB_P3V3_E1S_1_VOLT_V",
-            "in6_Name": "E1S_EB_P12V_E1S_1_VOLT_V",
-            "in7_Name": "E1S_EB_P12V_E1S_1_R_VOLT_V"
+            "in0_Name": "E1S_EB_ADC_P12V_STBY_VOLT_V",
+            "in1_Name": "E1S_EB_ADC_P3V3_AUX_VOLT_V",
+            "in2_Name": "E1S_EB_ADC_P3V3_E1S_0_VOLT_V",
+            "in3_Name": "E1S_EB_ADC_P12V_E1S_0_VOLT_V",
+            "in4_Name": "E1S_EB_ADC_P12V_E1S_0_R_VOLT_V",
+            "in5_Name": "E1S_EB_ADC_P3V3_E1S_1_VOLT_V",
+            "in6_Name": "E1S_EB_ADC_P12V_E1S_1_VOLT_V",
+            "in7_Name": "E1S_EB_ADC_P12V_E1S_1_R_VOLT_V"
         },
         {
             "Address": "$address",
@@ -208,7 +208,7 @@
                     "Label": "vout1",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 },
                 {
                     "Direction": "less than",
@@ -216,7 +216,7 @@
                     "Label": "vout1",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "less than",
@@ -304,7 +304,7 @@
                     "Label": "vout1",
                     "Name": "upper critical",
                     "Severity": 1,
-                    "Value": 12.6
+                    "Value": 12.84
                 },
                 {
                     "Direction": "less than",
@@ -312,7 +312,7 @@
                     "Label": "vout1",
                     "Name": "lower critical",
                     "Severity": 1,
-                    "Value": 11.4
+                    "Value": 11.16
                 },
                 {
                     "Direction": "less than",
