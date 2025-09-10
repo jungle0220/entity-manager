@@ -146,13 +146,27 @@
             ],
             "Type": "ADS7830",
             "in0_Name": "E1S_EB_ADC_P12V_STBY_VOLT_V",
+            "in0_Scale": 151.515,
             "in1_Name": "E1S_EB_ADC_P3V3_AUX_VOLT_V",
+            "in1_Scale": 500,
             "in2_Name": "E1S_EB_ADC_P3V3_E1S_0_VOLT_V",
+            "in2_Scale": 500,
+            "in2_PowerState": "On",
             "in3_Name": "E1S_EB_ADC_P12V_E1S_0_VOLT_V",
+            "in3_Scale": 151.515,
+            "in3_PowerState": "On",
             "in4_Name": "E1S_EB_ADC_P12V_E1S_0_R_VOLT_V",
+            "in4_Scale": 151.515,
+            "in4_PowerState": "On",
             "in5_Name": "E1S_EB_ADC_P3V3_E1S_1_VOLT_V",
+            "in5_Scale": 500,
+            "in5_PowerState": "On",
             "in6_Name": "E1S_EB_ADC_P12V_E1S_1_VOLT_V",
-            "in7_Name": "E1S_EB_ADC_P12V_E1S_1_R_VOLT_V"
+            "in6_Scale": 151.515,
+            "in6_PowerState": "On",
+            "in7_Name": "E1S_EB_ADC_P12V_E1S_1_R_VOLT_V",
+            "in7_Scale": 151.515,
+            "in7_PowerState": "On"
         },
         {
             "Address": "$address",
@@ -164,11 +178,12 @@
             "Address": "0x40",
             "Bus": 10,
             "Labels": [
-                "vout1",
                 "iout1",
+                "vin",
                 "pout1"
             ],
             "Name": "E1S_EB_PMON_E1S1",
+            "PowerState": "On",
             "Thresholds": [
                 {
                     "Direction": "greater than",
@@ -254,17 +269,18 @@
             "Type": "INA233",
             "iout1_Name": "E1S_EB_PMON_E1S1_P12V_CURR_A",
             "pout1_Name": "E1S_EB_PMON_E1S1_P12V_PWR_W",
-            "vout1_Name": "E1S_EB_PMON_E1S1_P12V_VOLT_V"
+            "vin_Name": "E1S_EB_PMON_E1S1_P12V_VOLT_V"
         },
         {
             "Address": "0x45",
             "Bus": 10,
             "Labels": [
-                "vout1",
                 "iout1",
+                "vin",
                 "pout1"
             ],
             "Name": "E1S_EB_PMON_E1S0",
+            "PowerState": "On",
             "Thresholds": [
                 {
                     "Direction": "greater than",
@@ -350,7 +366,7 @@
             "Type": "INA233",
             "iout1_Name": "E1S_EB_PMON_E1S0_P12V_CURR_A",
             "pout1_Name": "E1S_EB_PMON_E1S0_P12V_PWR_W",
-            "vout1_Name": "E1S_EB_PMON_E1S0_P12V_VOLT_V"
+            "vin_Name": "E1S_EB_PMON_E1S0_P12V_VOLT_V"
         },
         {
             "Address": "0x6a",
