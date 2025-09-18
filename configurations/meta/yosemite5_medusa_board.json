@@ -146,16 +146,16 @@
                 {
                     "Direction": "less than",
                     "Hysteresis": 0.0186,
-                    "Name": "lower non critical",
                     "Label": "in4",
+                    "Name": "lower non critical",
                     "Severity": 0,
                     "Value": 0.93
                 },
                 {
                     "Direction": "greater than",
                     "Hysteresis": 0.0214,
-                    "Name": "upper non critical",
                     "Label": "in4",
+                    "Name": "upper non critical",
                     "Severity": 0,
                     "Value": 1.07
                 },
@@ -713,6 +713,16 @@
             "vout1_Name": "PDB_HSC_VOUT_VOLT_V"
         },
         {
+            "Address": "0x60",
+            "Bus": 8,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.CPLD.LFMXO5_25_pdb",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_PDB_CPLD",
+            "Type": "LatticeLFMXO5_25Firmware"
+        },
+        {
             "Address": "0x48",
             "Bus": 8,
             "Name": "PDB_R_TEMP_C",
@@ -763,9 +773,7 @@
                 "vin",
                 "vout1",
                 "iout1",
-                "temp1",
-                "pin",
-                "pout1"
+                "temp1"
             ],
             "Name": "PDB_BRICK0",
             "Thresholds": [
@@ -832,44 +840,10 @@
                     "Name": "upper non recoverable",
                     "Severity": 4,
                     "Value": 122
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 38.86,
-                    "Label": "pin",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1943
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pin",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 37.7,
-                    "Label": "pout1",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1885
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pout1",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
                 }
             ],
             "Type": "pmbus",
             "iout1_Name": "PDB_BRICK0_CURR_A",
-            "pin_Name": "PDB_BRICK0_PIN_PWR_W",
-            "pout1_Name": "PDB_BRICK0_POUT_PWR_W",
             "temp1_Name": "PDB_BRICK0_TEMP_C",
             "vin_Name": "PDB_BRICK0_VIN_VOLT_V",
             "vout1_Name": "PDB_BRICK0_VOUT_VOLT_V"
@@ -881,9 +855,7 @@
                 "vin",
                 "vout1",
                 "iout1",
-                "temp1",
-                "pin",
-                "pout1"
+                "temp1"
             ],
             "Name": "PDB_BRICK1",
             "Thresholds": [
@@ -950,44 +922,10 @@
                     "Name": "upper non recoverable",
                     "Severity": 4,
                     "Value": 122
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 38.86,
-                    "Label": "pin",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1943
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pin",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 37.7,
-                    "Label": "pout1",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1885
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pout1",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
                 }
             ],
             "Type": "pmbus",
             "iout1_Name": "PDB_BRICK1_CURR_A",
-            "pin_Name": "PDB_BRICK1_PIN_PWR_W",
-            "pout1_Name": "PDB_BRICK1_POUT_PWR_W",
             "temp1_Name": "PDB_BRICK1_TEMP_C",
             "vin_Name": "PDB_BRICK1_VIN_VOLT_V",
             "vout1_Name": "PDB_BRICK1_VOUT_VOLT_V"
@@ -999,9 +937,7 @@
                 "vin",
                 "vout1",
                 "iout1",
-                "temp1",
-                "pin",
-                "pout1"
+                "temp1"
             ],
             "Name": "PDB_BRICK2",
             "Thresholds": [
@@ -1068,38 +1004,6 @@
                     "Name": "upper non recoverable",
                     "Severity": 4,
                     "Value": 122
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 38.86,
-                    "Label": "pin",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1943
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pin",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 37.7,
-                    "Label": "pout1",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1885
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 40,
-                    "Label": "pout1",
-                    "Name": "upper non recoverable",
-                    "Severity": 4,
-                    "Value": 2000
                 }
             ],
             "Type": "pmbus",
@@ -1109,16 +1013,6 @@
             "temp1_Name": "PDB_BRICK2_TEMP_C",
             "vin_Name": "PDB_BRICK2_VIN_VOLT_V",
             "vout1_Name": "PDB_BRICK2_VOUT_VOLT_V"
-        },
-        {
-            "Address": "0x60",
-            "Bus": 8,
-            "FirmwareInfo": {
-                "CompatibleHardware": "com.meta.Hardware.Yosemite5.CPLD.LFMXO5_25_pdb",
-                "VendorIANA": 40981
-            },
-            "Name": "Yosemite5_PDB_CPLD",
-            "Type": "LatticeLFMXO5_25Firmware"
         }
     ],
     "Name": "Yosemite5 Medusa Board",
