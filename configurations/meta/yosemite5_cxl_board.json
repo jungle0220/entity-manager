@@ -96,7 +96,9 @@
             "in3_PowerState": "On",
             "in4_Name": "CXL_ADC_P1V8_STBY_VOLT_V",
             "in5_Name": "CXL_ADC_P3V3_STBY_VOLT_V",
-            "in6_Name": "CXL_ADC_P5V_STBY_VOLT_V"
+            "in5_Scale": 500,
+            "in6_Name": "CXL_ADC_P5V_STBY_VOLT_V",
+            "in6_Scale": 281.293
         },
         {
             "Address": "0x1f",
@@ -196,7 +198,9 @@
             "in3_Name": "CXL_ADC_P0V6_VTT_CH13_VOLT_V",
             "in4_Name": "CXL_ADC_P0V6_VTT_CH02_VOLT_V",
             "in5_Name": "CXL_ADC_P2V5_VPP_CH13_VOLT_V",
+            "in5_Scale": 500,
             "in6_Name": "CXL_ADC_P2V5_VPP_CH02_VOLT_V",
+            "in6_Scale": 500,
             "in7_Name": "CXL_ADC_P1V2_VDD_HA"
         },
         {
