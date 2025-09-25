@@ -858,7 +858,7 @@
         },
         {
             "Address": "0x6a",
-            "Bus": 10,
+            "Bus": 5,
             "Name": "MB_E1S1_TEMP_C",
             "PowerState": "On",
             "Thresholds": [
