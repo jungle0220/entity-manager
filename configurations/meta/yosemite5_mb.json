@@ -561,7 +561,7 @@
             "Type": "LM75A"
         },
         {
-            "Address": "0x4f",
+            "Address": "0x47",
             "Bus": 11,
             "Labels": [
                 "vout1",
@@ -1535,7 +1535,7 @@
             "Type": "MP2X6XXFirmware"
         },
         {
-            "Address": "0x4f",
+            "Address": "0x47",
             "Bus": 11,
             "FirmwareInfo": {
                 "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP2869A_pvddcr_cpu0",
