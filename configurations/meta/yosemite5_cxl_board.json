@@ -244,7 +244,7 @@
                 "VendorIANA": 40981
             },
             "Name": "Yosemite5_CXL_VR_P1V2_VDD_DDR_CH02",
-            "Type": "ISL69269Firmware"
+            "Type": "RAA22XGen3p5Firmware"
         },
         {
             "Address": "0x63",
@@ -254,7 +254,7 @@
                 "VendorIANA": 40981
             },
             "Name": "Yosemite5_CXL_VR_PVDD_CORE",
-            "Type": "ISL69269Firmware"
+            "Type": "RAA22XGen3p5Firmware"
         },
         {
             "Address": "0x72",
@@ -264,7 +264,7 @@
                 "VendorIANA": 40981
             },
             "Name": "Yosemite5_CXL_VR_P1V2_VDD_DDR_CH13",
-            "Type": "ISL69269Firmware"
+            "Type": "RAA22XGen3p5Firmware"
         },
         {
             "Address": "0x4e",
