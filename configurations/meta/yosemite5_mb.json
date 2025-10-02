@@ -515,7 +515,6 @@
             "in1_Name": "MB_PMON_E1S1_P12V_VOLT_V",
             "power1_Name": "MB_PMON_E1S1_P12V_PWR_W"
         },
-  
         {
             "Address": "0x48",
             "Bus": 13,
@@ -834,6 +833,36 @@
             "vout2_Name": "MB_VR_CPU_PVDDIO_VOLT_V"
         },
         {
+            "Address": "0x4d",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP29612A_pvddcr_soc",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_SOC",
+            "Type": "MP2X6XXFirmware"
+        },
+        {
+            "Address": "0x4e",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP29612A_pvddcr_cpu1",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_CPU1",
+            "Type": "MP2X6XXFirmware"
+        },
+        {
+            "Address": "0x47",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP2869A_pvddcr_cpu0",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_CPU0",
+            "Type": "MP2X6XXFirmware"
+        },
+        {
             "Address": "0x6a",
             "Bus": 13,
             "Name": "MB_E1S0_TEMP_C",
@@ -878,6 +907,36 @@
                 }
             ],
             "Type": "NVME1000"
+        },
+        {
+            "Address": "0x64",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.RAA229640_pvddcr_soc",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_SOC_RTT",
+            "Type": "RAA22XGen3p5Firmware"
+        },
+        {
+            "Address": "0x62",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.RAA229640_pvddcr_cpu1",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_CPU1_RTT",
+            "Type": "RAA22XGen3p5Firmware"
+        },
+        {
+            "Address": "0x60",
+            "Bus": 11,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.RAA229639_pvddcr_cpu0",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_VR_CPU0_RTT",
+            "Type": "RAA22XGen3p5Firmware"
         },
         {
             "Address": "0x3c",
@@ -1513,36 +1572,6 @@
             "SPIControllerIndex": 1,
             "SPIDeviceIndex": 0,
             "Type": "SPIFlash"
-        },
-        {
-            "Address": "0x4d",
-            "Bus": 11,
-            "FirmwareInfo": {
-                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP29612A_pvddcr_soc",
-                "VendorIANA": 40981
-            },
-            "Name": "Yosemite5_MB_VR_SOC",
-            "Type": "MP2X6XXFirmware"
-        },
-        {
-            "Address": "0x4e",
-            "Bus": 11,
-            "FirmwareInfo": {
-                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP29612A_pvddcr_cpu1",
-                "VendorIANA": 40981
-            },
-            "Name": "Yosemite5_MB_VR_CPU1",
-            "Type": "MP2X6XXFirmware"
-        },
-        {
-            "Address": "0x47",
-            "Bus": 11,
-            "FirmwareInfo": {
-                "CompatibleHardware": "com.meta.Hardware.Yosemite5.VR.MP2869A_pvddcr_cpu0",
-                "VendorIANA": 40981
-            },
-            "Name": "Yosemite5_MB_VR_CPU0",
-            "Type": "MP2X6XXFirmware"
         }
     ],
     "Name": "Yosemite5 MB",
