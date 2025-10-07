@@ -4,27 +4,10 @@
             "Address": "0x4b",
             "Bus": 11,
             "Labels": [
-                "in0",
                 "in1"
             ],
             "Name": "MB_ADC0",
             "Thresholds": [
-                {
-                    "Direction": "less than",
-                    "Hysteresis": 0.0228,
-                    "Label": "in0",
-                    "Name": "lower critical",
-                    "Severity": 1,
-                    "Value": 1.14
-                },
-                {
-                    "Direction": "greater than",
-                    "Hysteresis": 0.0252,
-                    "Label": "in0",
-                    "Name": "upper critical",
-                    "Severity": 1,
-                    "Value": 1.26
-                },
                 {
                     "Direction": "less than",
                     "Hysteresis": 0.019,
@@ -43,7 +26,6 @@
                 }
             ],
             "Type": "ADS7830",
-            "in0_Name": "MB_ADC_P1V2_STBY_VOLT_V",
             "in1_Name": "MB_ADC_P1V0_STBY_VOLT_V"
         },
         {
