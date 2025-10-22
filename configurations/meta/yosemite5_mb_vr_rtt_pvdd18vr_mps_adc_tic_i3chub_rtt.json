@@ -542,6 +542,16 @@
             "Type": "LM75A"
         },
         {
+            "Address": "0x40",
+            "Bus": 0,
+            "FirmwareInfo": {
+                "CompatibleHardware": "com.meta.Hardware.Yosemite5.CPLD.LCMXO3D_9400HC_mb",
+                "VendorIANA": 40981
+            },
+            "Name": "Yosemite5_MB_CPLD",
+            "Type": "LatticeLCMXO3D_9400Firmware"
+        },
+        {
             "Address": "0x46",
             "Bus": 11,
             "FirmwareInfo": {
