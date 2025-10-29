@@ -32,6 +32,9 @@
                         "XDPE1X2XXFirmware",
                         "ISL69269Firmware",
                         "RAA22XGen3p5Firmware",
+                        "MP2X6XXFirmware",
+                        "MP994XFirmware",
+                        "MP5998Firmware",
                         "TDA38640AFirmware"
                     ]
                 },
