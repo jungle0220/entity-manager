@@ -31,7 +31,8 @@
                     "enum": [
                         "XDPE1X2XXFirmware",
                         "ISL69269Firmware",
-                        "RAA22XGen3p5Firmware"
+                        "RAA22XGen3p5Firmware",
+                        "TDA38640AFirmware"
                     ]
                 },
                 "Bus": {
