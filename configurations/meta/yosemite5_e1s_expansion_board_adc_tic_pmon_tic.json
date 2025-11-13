@@ -375,7 +375,7 @@
     ],
     "Name": "Yosemite5 E1S Expansion Board",
     "Probe": [
-        "xyz.openbmc_project.FruDevice({'PRODUCT_PRODUCT_NAME': 'Yosemite V5 .*', 'BOARD_PRODUCT_NAME': 'E1.S Expansion Board'})",
+        "xyz.openbmc_project.FruDevice({'PRODUCT_PRODUCT_NAME': 'Yosemite V5 .*', 'BOARD_PRODUCT_NAME': 'E1.S Expansion Board', 'BOARD_MANUFACTURER': '(Quanta|Wiwynn)'})",
         "AND",
         "xyz.openbmc_project.FruDevice({'BOARD_INFO_AM4': 'ADC-TIC PMON-TIC'})"
     ],
