@@ -160,7 +160,6 @@ configs = [
     'meta/yosemite4_wailuafalls.json',
     'meta/yosemite4n.json',
     'meta/yosemite5_1kw_paddle_board.json',
-    'meta/yosemite5_cx7.json',
     'meta/yosemite5_cxl_board_vr_mps_tchip_stm.json',
     'meta/yosemite5_cxl_board_vr_raa_tchip_tic.json',
     'meta/yosemite5_e1s_expansion_board_adc_qns_pmon_sgy.json',
